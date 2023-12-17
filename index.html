@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorraine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+
+    
+</head>
+
+<body>
+    
+        <header>
+            <a href="#" class="logo">Lorraine</a>
+    
+            <ul class="nav">
+                <li><a class="nav-link" href="#main">Main</a></li>
+                <li><a class="nav-link" href="#new">New Arrival</a></li>
+                <li><a class="nav-link" href="#products">Products</a></li>
+                <li><a class="nav-link" href="#reviews">Reviews</a></li>
+                
+            </ul>
+    
+            <ul class="nav-icon">
+                <i class='bx bx-search-alt' id="search"></i>
+               
+                <a href="#cart"><i class='bx bxs-cart'></i></a>
+                <a href="#user"><i class='bx bxs-user'></i></a>
+                <i class='bx bx-menu' id="burger"></i>
+                
+                
+            </ul>
+    
+           <div class="search-box">
+            <input type="search"name="search"id="search"  placeholder="Search items...">
+           </div>
+
+           
+        </header>
+
+        <div id="cart" class="cart">
+            <div class="cart__body">
+                <div class="cart__content">
+                    <a href="#" class="cart__close">X</a>
+                    <div class="cart__title">Cart</div>
+                    <div class="cart__input">
+                        <div class="box">
+                            <img src="img/4.jpg" alt="">
+                            <div class="text">
+                                <h3>Stylish delicate dress</h3>
+                                <span>$27.99</span>
+                                <span>x1</span>
+                            </div>
+                            <i class='bx bxs-trash' ></i>
+                        </div>
+                        <div class="box">
+                            <img src="img/5.jpg" alt="">
+                            <div class="text">
+                                <h3>Stylish delicate dress</h3>
+                                <span>$40.99</span>
+                                <span>x1</span>
+                            </div>
+                            <i class='bx bxs-trash' ></i>
+                        </div>
+                        <h2>Total: $68.98</h2>
+                        <a href="#" class="btnn">Checkout</a>
+                           </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+
+
+        <div id="user" class="user">
+            <div class="user__body">
+                <div class="user__content">
+                    <a href="#" class="user__close">X</a>
+                    <div class="user__title">Sign Up</div>
+                    <div class="user__input">
+                        <input class="" type="email" placeholder="Your email...">
+                        <input type="password" placeholder="Password">
+                        <input type="submit" value="Login" class="login-btn">
+                        <p>Forget Password <a href="#">Reset Now</a></p>
+                        <p>Don't have an account? <a href="#">Create One</a>
+                        </p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <section class="main" id="main">
+            <div class="main-img">
+                <img src="img/woman.jpg" alt="">
+            </div>
+            <div class="main-text">
+                <span class="shop-now">Shop Now</span>
+                <h1 class="back-title">Lorraine Dresses</h1>
+                <p>Timeless Elegance, Modern Style.</p>
+                <div class="modal">
+                    <a href="#popup" class="main-button"><span class="button-txt">Get a discount!</span></a>
+                </div> 
+                
+            </div>
+           
+
+
+            <div id="popup" class="popup">
+                <div class="popup__body">
+                    <div class="popup__content">
+                        <a href="#" class="popup__close">X</a>
+                        <div class="popup__title">GET A 40% DISCOUNT</div>
+                        <div class="popup__input">
+                            <input class="modal-input" type="text" placeholder="Your email...">
+                            <button class="modal-btn" type="submit">Submit</button>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    
+        
+        <section class="new" id="new">
+            
+                <div class="new-title"><h1>New Arrival</h1></div>
+
+                <div class="swiper new-arrival">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide box">
+                            <img src="img/7.jpg" alt="">
+                            <div class="content">
+                                <a href="#" class="main-button">Buy</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide box">
+                            <img src="img/2.jpg" alt="">
+                            <div class="content">
+                                <a href="#" class="main-button">Buy</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide box">
+                            <img src="img/5.jpg" alt="">
+                            <div class="content">
+                                <a href="#" class="main-button">Buy</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide box">
+                            <img src="img/4.jpg" alt="">
+                            <div class="content">
+                                <a href="#" class="main-button">Buy</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide box">
+                            <img src="img/img9.jpg" alt="">
+                            <div class="content">
+                                <a href="#" class="main-button">Buy</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide box">
+                            <img src="img/1.jpg" alt="">
+                            <div class="content">
+                                <a href="#" class="main-button">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                </div>
+                
+        </section>
+
+        <section class="products" id="products">
+            <div class="new-title"><h1>Products</h1></div>
+            <div class="prod-container">
+                <div class="block">
+                    <img class="img1" src="img/dr.jpg" alt="">
+                    <div class="content">
+                        <h2>Stylish delicate dress</h2>
+
+                        <div class="star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="size">
+                           
+                            <button class="btn-size">S</button>
+                            <button class="btn-size">M</button>
+                            <button class="btn-size">L</button>
+                            <button class="btn-size">XL</button>
+                        </div>
+                        <span>$26.50</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                    <a href="#"><button class="product-btn">Buy Now</button></a>
+                </div>
+                <div class="block">
+                    <img src="img/dr2.jpg" alt="">
+                    <div class="content">
+                        <h2>Stylish delicate dress</h2>
+
+                        <div class="star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="size">
+                           
+                            <button class="btn-size">S</button>
+                            <button class="btn-size">M</button>
+                            <button class="btn-size">L</button>
+                            <button class="btn-size">XL</button>
+                        </div>
+                        <span>$45.99</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                    <a href="#"><button class="product-btn">Buy Now</button></a>
+                </div>
+                <div class="block">
+                    <img src="img/dr5.jpg" alt="">
+                    <div class="content">
+                        <h2>Stylish delicate dress</h2>
+
+                        <div class="star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="size">
+                           
+                            <button class="btn-size">S</button>
+                            <button class="btn-size">M</button>
+                            <button class="btn-size">L</button>
+                            <button class="btn-size">XL</button>
+                        </div>
+                        <span>$70.20</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                    <a href="#"><button class="product-btn">Buy Now</button></a>
+                </div>
+                <div class="block">
+                    <img src="img/d.jpg" alt="">
+                    <div class="content">
+                        <h2>Stylish delicate dress</h2>
+
+                        <div class="star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="size">
+                           
+                            <button class="btn-size">S</button>
+                            <button class="btn-size">M</button>
+                            <button class="btn-size">L</button>
+                            <button class="btn-size">XL</button>
+                        </div>
+                        <span>$69.99</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                    <a href="#"><button class="product-btn">Buy Now</button></a>
+                </div>
+                <div class="block">
+                    <img src="img/f.jpg" alt="">
+                    <div class="content">
+                        <h2>Stylish delicate dress</h2>
+
+                        <div class="star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="size">
+                           
+                            <button class="btn-size">S</button>
+                            <button class="btn-size">M</button>
+                            <button class="btn-size">L</button>
+                            <button class="btn-size">XL</button>
+                        </div>
+                        <span>$77.99</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                    <a href="#"><button class="product-btn">Buy Now</button></a>
+                </div>
+                <div class="block">
+                    <img src="img/dr2.jpg" alt="">
+                    <div class="content">
+                        <h2>Stylish delicate dress</h2>
+
+                        <div class="star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="size">
+                           
+                            <button class="btn-size">S</button>
+                            <button class="btn-size">M</button>
+                            <button class="btn-size">L</button>
+                            <button class="btn-size">XL</button>
+                        </div>
+                        <span>$59.99</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                    <a href="#"><button class="product-btn">Buy Now</button></a>
+                </div>
+                <div class="block">
+                    <img src="img/dr.jpg" alt="">
+                    <div class="content">
+                        <h2>Stylish delicate dress</h2>
+
+                        <div class="star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="size">
+                            
+                            <button class="btn-size">S</button>
+                            <button class="btn-size">M</button>
+                            <button class="btn-size">L</button>
+                            <button class="btn-size">XL</button>
+                        </div>
+                        
+                        <span>$49.99</span>
+                        <i class='bx bx-cart' ></i>
+                    </div>
+                    <a href="#"><button class="product-btn">Buy Now</button></a>
+                </div>
+                <div class="block">
+                    <img src="img/dr5.jpg" alt="">
+                    <div class="content">
+                        <h2>Stylish delicate dress</h2>
+
+                        <div class="star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="size">
+                           
+                            <button class="btn-size">S</button>
+                            <button class="btn-size">M</button>
+                            <button class="btn-size">L</button>
+                            <button class="btn-size">XL</button>
+                        </div>
+                        <span>$36.99</span>
+                        <i class='bx bx-cart' ></i>
+                        
+                    </div>
+                    <a href="#"><button class="product-btn">Buy Now</button></a>
+                </div>
+                
+                
+            </div>
+        </section>
+   
+
+        <section class="reviews" id="reviews">
+            <div class="new-title"><h1>Our Reviews</h1></div>
+            <div class="reviews-container">
+                <div class="box">
+                    <img src="img/per1.jpg" alt="">
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <h2>Lara Tysom</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit corrupti quaerat officiis ex totam amet tempora sint ullam unde sapiente aperiam maxime, blanditiis ea, illum ratione recusandae tenetur, odit laboriosam.</p>
+                    
+                </div>
+                <div class="box">
+                    <img src="img/joshua-rawson-harris-ymnMEMj9X_4-unsplash.jpg" alt="">
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <h2>Sarah Smith</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit corrupti quaerat officiis ex totam amet tempora sint ullam unde sapiente aperiam maxime, blanditiis ea, illum ratione recusandae tenetur, odit laboriosam.</p>
+                    
+                </div>
+                <div class="box">
+                    <img src="img/kelly-sikkema-JN0SUcTOig0-unsplash.jpg" alt="">
+                    <div class="star">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half' ></i>
+                    </div>
+                    <h2>Veronica Lovas</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit corrupti quaerat officiis ex totam amet tempora sint ullam unde sapiente aperiam maxime, blanditiis ea, illum ratione recusandae tenetur, odit laboriosam.</p>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="footer-block">
+            <h2>Lorraine</h2>
+            <p>Timeless Elegance, Modern Style.</p>
+
+            <div class="media">
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-tiktok'></i></a>
+               
+            </div>
+        </div>
+            <div class="footer-block">
+                <h3>Support</h3>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">FAQ</a></li>
+            </div>
+            <div class="footer-payment">
+                <h3>Payment</h3>
+                <div class="payment">
+                <img src="img/paypal.png" alt="">
+                <img src="img/card.png" alt="">
+                <img src="img/visa.png" alt="">
+                </div>
+            </div>
+        </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
